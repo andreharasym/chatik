@@ -7,7 +7,7 @@ nickname = input("Choose your nickname : ").strip()
 while not nickname:
     nickname = input("Your nickname should not be empty : ").strip()
 my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host = "192.168.55.121"
+host = ""
 port = 5555
 my_socket.connect((host, port))
 
